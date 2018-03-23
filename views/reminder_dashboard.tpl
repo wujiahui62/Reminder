@@ -16,6 +16,5 @@
     </script>   
 </head>
 <body>
-<h1>Tes1t</h1>
 <div class="monthly" id="mycalendar"></div>
 </body>
