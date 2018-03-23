@@ -6,7 +6,7 @@ from pymongo import MongoClient
 from bson.objectid import ObjectId
 
 connection_string = "mongodb://{u}:{p}@ds147377.mlab.com:47377/reminders"
-client = MongoClient(connection_string.format(u=private.mongo_user, p=private.mongo_password, connect=False))
+client = MongoClient(connection_string.format(u=private.mongo_user, p=private.mongo_password), connect=False)
 
 
 db = client.reminders
