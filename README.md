@@ -10,7 +10,10 @@ github repo: https://github.com/wujiahui62/Reminder
 
 
 ### How to use
+
 In editing page, use can save, delete, update and search.
+
+Users can always click on the reminder List to go back to the homepage.
 
 In the first right searchbox, user can type in any key words that matches events or dates. Key words are case sensitive.
 
