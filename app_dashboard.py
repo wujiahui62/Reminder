@@ -27,14 +27,12 @@ def get_reminder_in_json():
 
 
 @get('/')
-@get('/reminder-dashboard')
 def get_reminder_list():
     return template('reminder_dashboard.tpl')
-
+    
 @get('/<filepath:path>')
 def server_static(filepath):
     return static_file(filepath, root='./')
 
 #debug(True)
-run(host='0.0.0.0', port=8080, reloader=True)
-#application = default_app()
+run(host='localhost', port=8081, reloader=True)

@@ -12,9 +12,6 @@ import mongo_reminder_list as reminder_list
 @get('/reminder-list')
 def get_reminder_list():
     reminders = reminder_list.get_reminders()
-    for reminder in reminders:
-        event = reminder['event']
-        date = reminder['date']
     return template('reminder_list.tpl', reminders=reminders)
 
 @post('/new-reminder')
