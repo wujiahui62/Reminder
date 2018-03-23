@@ -6,8 +6,6 @@ editing page: http://jiahui.pythonanywhere.com/
 
 dashboard: http://159.65.255.177:8080/
 
-github repo: https://github.com/wujiahui62/Reminder
-
 
 ### How to use
 
